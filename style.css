@@ -1,0 +1,178 @@
+/* overriding user agent settings */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Hyperlinks jump to the right element, despite the top banner's height */
+html {
+    scroll-padding-top: 69px;
+    /* height of sticky header */
+}
+
+/* Overrides the default anchor styling */
+a {
+    color: seashell;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+/* Logo */
+#tea_cozy_logo {
+    height: 50px;
+    position: fixed;
+    width: auto;
+    left: 10px;
+    top: 10px;
+}
+
+/* Fixed top bar */
+header {
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    background-color: black;
+}
+
+/* navbar */
+.upper-right-navbar {
+    height: 69px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* Nav elements */
+.upper-right-navbar span {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+/* Header container - for img and title */
+#header-container {
+    position: relaabsolute;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    height: 700px;
+    background-image: url("media/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Header image background (inside header container) */
+#image-bg {
+    height: 700px;
+    width: auto;
+    z-index: -1;
+}
+
+/*  */
+#above-image-header {
+    position: relative;
+    top: 50%;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    height: auto;
+    ;
+}
+
+.tea_container {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#featured_tea {
+    margin-top: 70px;
+}
+
+.item {
+    padding: 10px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+main {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.main_header,
+.main_subheader {
+    text-align: center;
+}
+
+main figcaption {
+    text-align: center;
+    margin-top: 2%;
+    ;
+}
+
+.locations {
+    position: relative;
+    margin: auto;
+    background-image: url("media/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 90%;
+}
+
+.location_container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+.location_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    background-color: black;
+    width: 300px;
+    height: 250px;
+    margin: 40px;
+}
+
+.locations_header {
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 15px;
+}
+
+.contacts {
+    padding-top: 10px;
+    height: 200px;
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    text-align: left;
+    left: 20px;
+    width: 90%;
+    bottom: 30px;
+}
+
